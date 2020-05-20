@@ -28,7 +28,6 @@ const UsersList: React.FC = () => {
                         <IonLabel>User 2</IonLabel>
                     </IonItem>
                 </IonList>
-                <p>Go to <Link to={"/next"}>next</Link> level</p>
 
                 <p>p</p>
                 <br/>
@@ -50,6 +49,8 @@ const UsersList: React.FC = () => {
                     </IonItem>
                 </IonList>
                 <p>bottom</p>
+                <p>Go to <Link to={"/next"}>next</Link> level</p>
+                <input style={{color: "black"}} type={"text"}/>
             </IonContent>
         </IonPage>
     );
